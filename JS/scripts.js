@@ -54,4 +54,6 @@ cleanerBtn.addEventListener("click", () => {
   multiplicationTable.innerHTML =
     "Informe um número para calcular uma tabuada...";
   multiplicationTitle.innerHTML = "";
+  numberInput.value = 0;
+  multiplicationInput.value = 10;
 });
