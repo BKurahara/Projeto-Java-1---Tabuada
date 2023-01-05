@@ -15,18 +15,20 @@ body {
 h2 {
   margin-bottom: 1rem;
 }
-
+.form-cleaner {
+  background-color: #fff;
+  border-radius: 1rem;
+  color: #333;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 300px;
+}
 #multiplication-form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   max-width: 300px;
-  margin: 1rem auto;
-  padding: 1rem;
-  background-color: #fff;
-  border-radius: 1rem;
-  color: #333;
 }
 
 .form-control {
@@ -61,7 +63,7 @@ h2 {
   margin-top: 1rem;
 }
 
-#multiplication-form input[type="submit"],
+#multiplication-form button,
 #cleaner-table {
   max-height: 50px;
   padding: 0.6rem 1.2rem;

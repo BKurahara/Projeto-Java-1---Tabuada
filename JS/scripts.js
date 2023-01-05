@@ -51,7 +51,7 @@ multiplicationForm.addEventListener("submit", (e) => {
 });
 
 cleanerBtn.addEventListener("click", () => {
-  multiplicationTable.innerHTML = "";
+  multiplicationTable.innerHTML =
+    "Informe um número para calcular uma tabuada...";
   multiplicationTitle.innerHTML = "";
-  return multiplicationTable;
 });
